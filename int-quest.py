@@ -34,6 +34,9 @@ print(sorted(twosum_indices_linear([2, 7, 11, 15], 18)))
 
 # Given a 32-bit signed integer, reverse digits of an integer.
 
+# Restate
+# If I was given an integeer you want me to figure out how to reverse the digits?
+
 
 # clarifying questions
 # are the numbers sorted
@@ -49,7 +52,7 @@ print(sorted(twosum_indices_linear([2, 7, 11, 15], 18)))
 
 
 # for example if the number was 321
-# what I would do is append the last number into a new list (naive answer)
+# what I would do is append the last number into a new list until its over (naive answer)
 # or use the int to string method and than reverse the integer
 def reverse(x):
     """
