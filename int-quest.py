@@ -15,6 +15,7 @@
 # number 2 should equal target number - number 1
 # loop through the pairs of number in each list
 # return index number 1 and number 2
+# Does time complexity matter does memory storage matter?
 
 
 def twosum_indices_linear(nums, target):
@@ -54,6 +55,7 @@ print(sorted(twosum_indices_linear([2, 7, 11, 15], 18)))
 # for example if the number was 321
 # what I would do is append the last number into a new list until its over (naive answer)
 # or use the int to string method and than reverse the integer
+# Does time complexity matter, Does memory matter?
 def reverse(x):
     """
     :type x: int
