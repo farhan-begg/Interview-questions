@@ -59,6 +59,3 @@ def unique_substring(string):
         print("The input string is " + string)
         length = unique_substring(string)
         print(str(length))
-
-
-main():
